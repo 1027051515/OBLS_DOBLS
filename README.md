@@ -23,7 +23,7 @@ The broad learning system is one type of effective method for tabular data analy
 * Source code for Caltech-101: [Caltech-101](https://github.com/1027051515/PHSNN-RPHSNN/blob/main/Demo.rar)
 
 ### Caltech-256 (Visual Image Classification Domain)
-* Caltech-256 dataset: [Caltech-256 DATASET](http://www.vision.caltech.edu/Image_Datasets/Caltech101/)
+* Caltech-256 dataset: [Caltech-256 DATASET](https://paperswithcode.com/dataset/caltech-256)
   * Caltech-256 (ResNet-50) features: [Caltech-256 (GoogLe Drive)](https://drive.google.com/file/d/1utcKTwC5dftDGcvLG5ABCTFWGvvObcDz/view?usp=sharing)
 * Source code for Caltech-256: [Caltech-256](https://github.com/1027051515/PHSNN-RPHSNN/blob/main/Demo.rar)
 
