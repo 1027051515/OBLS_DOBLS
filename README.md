@@ -11,7 +11,7 @@ The broad learning system is one type of effective method for tabular data analy
 
 ## Learning Structure:
 
-<img src="https://github.com/1027051515/OBLS_DOBLS/blob/main/f2.png" width="1050" height="350" />
+<img src="https://github.com/1027051515/OBLS_DOBLS/blob/main/f2.png" width="1050" height="320" />
 
 ## Related Work:
 
