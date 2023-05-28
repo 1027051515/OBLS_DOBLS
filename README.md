@@ -1,14 +1,13 @@
-# Progressive Learning Model for Big Data Analysis Using Subnetwork and Moore-Penrose Inverse
+# Deep Optimized Broad Learning System for Large-scale Tabular Data Analysis
 ## Abstract:
 
-The multilayer Moore-Penrose inverse-based representation learning algorithms play an important role in image classification and big data analysis. However, these algorithms have several limitations such as large number of hyper-parameters and ineffectiveness of feature encoding. In this paper, we developed two representation learning algorithms using the Moore-Penrose inverse strategy to solve these two limitations. Firstly, a progressive learning method called P-HSNN is developed that can gradually learn the representations of the latent space. Here, the hidden layer representation is gradually learned by adding new subnet nodes and subspaces. Following that, a robust learning algorithm named RP-HSNN is proposed to learn the more discriminative features. Specifically, the manifold regularization is used to project the raw data to the subspace. Experimental result on different application domains verified the effectiveness of the proposed models. Here, experiments on image classification and other real-world application domains with varying number of training samples show that the proposed feature representation network gets stronger testing performance compared with other multilayer one-class classification  frameworks.
+The broad learning system is one type of effective method for tabular data analysis. However, as the demand for processing large-scale datasets, the original broad learning system ma not be effective in handling big data. In this paper, two broad learning system-based algorithms, OBLS and DOBLS have been proposed. The main contributions of the paper are: i) the OBLS uses an effective and efficient learning scheme for big data analysis, where a parameter refinement strategy is proposed to fine-tune the weights in the model, and ii) the DOBLS is built with multiple OBLS, having a robust network connection topology to boost the efficiency of the data transformation within the model. Here, two types of shortcut are utilized. One connects the input layer to each OBLS, while the other one has a direct propagation between every OBLS to the output laer. Experimental results validate the effectiveness of the proposed models. 
 
 
 ## Contributions:
-* I. Architecture side - Two novel analytic learning algorithms called P-HSNN and RP-HSNN are proposed. Specifically, i) to enhance the discriminitively of the latent space features, the manifold regularization strategy is used. ii) the global-level representations of input pattern are generated through the proposed strategy, and iii) the latent space is genertated through the concatenation of the subnet-based subspace.
-
-* II. Application side - The key contribution of this paper in terms of its application is the usage of P-HSNN and RP-HSNN, which harnesses high-level abstract features to handle large-scale datasets with more than 500 K samples. Furthermore, the cross-domain validations verify the effectiveness of the proposed methods. 
-
+* I. Architecture side - Two novel analytic learning algorithms called OBLS and DOBLS are proposed. Specifically, i) a refinement learning strategy is proposed to boost the perofrmance of the original BLS on the big data analysis, ii) to enhance the discriminitively of the latent space features, a new network connection topology is proposed. 
+* 
+* II. Application side - The key contribution of this paper in terms of its application is the usage of OBLS and DOBLS, which harnesses high-level abstract features to handle large-scale datasets with more than 500 K samples. Furthermore, the cross-domain validations (multi-view feature embedding, one-class classification, and camera model identification) verify the effectiveness of the proposed methods. 
 
 ## Learning Structure:
 
@@ -16,21 +15,20 @@ The multilayer Moore-Penrose inverse-based representation learning algorithms pl
 
 ## Related Work:
 
-[1] Zhang, W. (2022). Progressive Learning Model for Big Data Analysis Using Subnetwork and Moore-Penrose Inverse. IEEE Transactions on Multimedia.
+[1] Zhang, W. (2022). Deep Optimized Broad Learning System for Large-scale Tabular Data Analysis. IEEE Transactions on Cybernetics.
 
 ### Caltech-101 (Visual Image Classification Domain)
 * Caltech-101 dataset: [Caltech-101 DATASET](http://www.vision.caltech.edu/Image_Datasets/Caltech101/)
-* Caltech-101 (Inception-v3) features: [Caltech-101 (GoogLe Drive)](https://drive.google.com/file/d/1utcKTwC5dftDGcvLG5ABCTFWGvvObcDz/view?usp=sharing) or [Caltech-101 (BaiduNetDisk, Access Code: t123)](https://pan.baidu.com/s/1EMoQ5gYjVB21yvNw0MvJ9w)
+* Caltech-101 (Inception-v3) features: [Caltech-101 (GoogLe Drive)](https://drive.google.com/file/d/1utcKTwC5dftDGcvLG5ABCTFWGvvObcDz/view?usp=sharing)
 * Source code for Caltech-101: [Caltech-101](https://github.com/1027051515/PHSNN-RPHSNN/blob/main/Demo.rar)
 
-### Misinformation detection (Extended Domain)
-* Misinformation dataset (CoMask - Data collected from three major news agencies): [RUMOR DATASET](https://github.com/1027051515/PHSNN-RPHSNN/blob/main/BL.csv)
-
-### Text-pattern Categorization (Extended Domain)
-* Text-pattern dataset (WeaRe): [Text-pattern DATASET](https://drive.google.com/file/d/1Pqnm9qypvGph8S86GCPx81W-mXRIXcnv/view)
+### Caltech-256 (Visual Image Classification Domain)
+* Caltech-256 dataset: [Caltech-256 DATASET](http://www.vision.caltech.edu/Image_Datasets/Caltech101/)
+  * Caltech-256 (ResNet-50) features: [Caltech-256 (GoogLe Drive)](https://drive.google.com/file/d/1utcKTwC5dftDGcvLG5ABCTFWGvvObcDz/view?usp=sharing)
+* Source code for Caltech-256: [Caltech-256](https://github.com/1027051515/PHSNN-RPHSNN/blob/main/Demo.rar)
 
 ## Dependancies
-* Matlab version 2020a,
+* Matlab version 2022a,
 * A workstation with a 256GB memory and an E5-2650 processor.
 
 ## Reproduce the Experimental Results
