@@ -6,7 +6,7 @@ The broad learning system is one type of effective method for tabular data analy
 
 ## Contributions:
 * I. Architecture side - Two novel analytic learning algorithms called OBLS and DOBLS are proposed. Specifically, i) a refinement learning strategy is proposed to boost the perofrmance of the original BLS on the big data analysis, ii) to enhance the discriminitively of the latent space features, a new network connection topology is proposed. 
-* 
+
 * II. Application side - The key contribution of this paper in terms of its application is the usage of OBLS and DOBLS, which harnesses high-level abstract features to handle large-scale datasets with more than 500 K samples. Furthermore, the cross-domain validations (multi-view feature embedding, one-class classification, and camera model identification) verify the effectiveness of the proposed methods. 
 
 ## Learning Structure:
