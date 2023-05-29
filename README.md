@@ -15,7 +15,7 @@ The broad learning system is one type of effective method for tabular data analy
 
 ## Related Work:
 
-[1] Zhang, W. (2022). Deep Optimized Broad Learning System for Large-scale Tabular Data Analysis. IEEE Transactions on Cybernetics.
+[1] Zhang, W. Deep Optimized Broad Learning System for Large-scale Tabular Data Analysis. IEEE Transactions on Cybernetics (Under review).
 
 ### Caltech-101 (Visual Image Classification Domain)
 * Caltech-101 dataset: [Caltech-101 DATASET](http://www.vision.caltech.edu/Image_Datasets/Caltech101/)
