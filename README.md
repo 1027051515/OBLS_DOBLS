@@ -33,6 +33,6 @@ The broad learning system is one type of effective method for tabular data analy
 
 ## Reproduce the Experimental Results
 
-Run script "Coding_M.m" for reproduciility.
+Run script "OBLS_DOBLS.m" for reproduciility.
 
 #The code is released in content-obscured version (p files). After acceptance of the manuscript (if decided so), the source code will be made public.
