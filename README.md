@@ -1,4 +1,4 @@
-# Deep Optimized Broad Learning System for Large-scale Tabular Data Analysis
+# Deep Optimized Broad Learning System for Applications in Tabular Data Recognition
 ## Abstract:
 
 The broad learning system is one type of effective method for tabular data analysis. However, as the demand for processing large-scale datasets, the original broad learning system ma not be effective in handling big data. In this paper, two broad learning system-based algorithms, OBLS and DOBLS have been proposed. The main contributions of the paper are: i) the OBLS uses an effective and efficient learning scheme for big data analysis, where a parameter refinement strategy is proposed to fine-tune the weights in the model, and ii) the DOBLS is built with multiple OBLS, having a robust network connection topology to boost the efficiency of the data transformation within the model. Here, two types of shortcut are utilized. One connects the input layer to each OBLS, while the other one has a direct propagation between every OBLS to the output laer. Experimental results validate the effectiveness of the proposed models. 
